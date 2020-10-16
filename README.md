@@ -1,5 +1,11 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description 🚀
+An a Airbnb clone, made with clever programmer and a few modification acording the last update of the website.
 
+## Technologies used
+I use React JS, Material UI and Firebase
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Available Scripts
 
 In the project directory, you can run:
