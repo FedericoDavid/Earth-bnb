@@ -20,7 +20,7 @@ function SearchResult({
         <div className="searchResult__infoTop">
           <p>{location}</p>
           <h3>{title}</h3>
-          <p>___</p>
+          <p>_____</p>
           <p>{description}</p>
         </div>
 
