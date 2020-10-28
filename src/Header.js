@@ -23,10 +23,10 @@ function Header() {
       </div>
 
       <div className="header__right">
-        <p>Become a host</p>
-        <LanguageIcon />
-        <ExpandMoreIcon />
-        <Avatar />
+        <p className="header__host">Become a host</p>
+        <LanguageIcon className="header__Icon" />
+        <ExpandMoreIcon className="header__expand" />
+        <Avatar className="header__avatar" />
       </div>
     </div>
   );
