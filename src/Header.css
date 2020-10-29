@@ -13,6 +13,7 @@
   object-fit: contain;
   height: 100px;
   margin-left: 20px;
+  cursor: pointer;
 }
 
 .header__center {
@@ -25,6 +26,7 @@
   border: 1px solid #ccc;
   border-radius: 999px;
   transition: 0.15s ease-in;
+  cursor: pointer;
 }
 
 .header__center:hover {
@@ -43,10 +45,12 @@
   justify-content: space-between;
   width: 15vw;
   margin-right: 80px;
+  cursor: pointer;
 }
 
 .header__host {
   padding: 10px 15px;
+  cursor: pointer;
 }
 
 .header__host:hover {
@@ -59,6 +63,7 @@
   border: none;
   padding: 10px;
   outline-width: 0;
+  cursor: pointer;
 }
 
 .header__Icon:hover,
