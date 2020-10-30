@@ -1,9 +1,12 @@
 ## Project Description 🚀
-An a Airbnb clone, made with clever programmer and a few modification acording the last update of the website.
+An a Airbnb clone.
+Still working to add more functionality to the website
 
-## Technologies used
-I use React JS, Material UI and Firebase
+## Technologies used ⚡
+I use React JS, CSS3, Material UI for some icons, hooks and external components (as search dates "react-date-range") and Netlify to hosting
 
+## Demo Live 🌎
+https://earth-bnbclone.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Available Scripts
