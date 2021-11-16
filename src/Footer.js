@@ -1,5 +1,4 @@
-import React from "react";
-import "./Footer.css";
+import "./css/Footer.css";
 
 function Footer() {
   return (
@@ -8,6 +7,6 @@ function Footer() {
       <p>Federico Enriquez Web Developer</p>
     </div>
   );
-}
+};
 
 export default Footer;

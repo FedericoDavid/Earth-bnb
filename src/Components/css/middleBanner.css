@@ -1,0 +1,42 @@
+.middle__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle__banner {
+  display: flex;
+  width: 90%;
+  height: 350px;
+  background: url(https://a0.muscache.com/im/pictures/c800f7ee-da2e-45f5-969a-65827cb63e81.jpg?im_w=720);
+  border-radius: 12px;
+  align-items: center;
+}
+
+.middle__info {
+  padding-left: 25px;
+  color: #fff;
+}
+
+.middle__info > h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.middle__info > h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.middle__info > button {
+  margin-top: 20px;
+}
+
+.middle__btn {
+  background-color: #fff !important;
+  font-weight: 600 !important;
+  text-transform: inherit !important;
+  color: #111 !important;
+}

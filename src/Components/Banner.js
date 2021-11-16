@@ -1,12 +1,14 @@
 import React, { useState } from "react";
-import "./Banner.css";
 import { Button } from "@material-ui/core";
 import Search from "./Search";
 import { useHistory } from "react-router-dom";
 
+import "./css/Banner.css";
+
 function Banner() {
-  const history = useHistory();
   const [showSearch, setShowSearch] = useState(false);
+
+  const history = useHistory();
 
   return (
     <div className="banner">
@@ -32,6 +34,6 @@ function Banner() {
       </div>
     </div>
   );
-}
+};
 
 export default Banner;

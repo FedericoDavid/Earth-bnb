@@ -1,18 +1,18 @@
-import React from "react";
-import "./App.css";
-import Home from "./pages/Home";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Dispo from "./Components/Dispo";
+import Home from "./Components/Home";
 import Header from "./Header";
 import Footer from "./Footer";
 import SearchPage from "./pages/SearchPage";
 
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import "./css/App.css";
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
       <Router>
+        <Dispo />
         <Header />
-
         <Switch>
           <Route path="/search">
             <SearchPage />
@@ -21,11 +21,10 @@ function App() {
             <Home />
           </Route>
         </Switch>
-
         <Footer />
       </Router>
     </div>
   );
-}
+};
 
 export default App;

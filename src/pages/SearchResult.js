@@ -1,7 +1,7 @@
-import React from "react";
-import "./SearchResult.css";
 import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
 import StarIcon from "@material-ui/icons/Star";
+
+import "./css/SearchResult.css";
 
 function SearchResult({
   img,
@@ -39,6 +39,6 @@ function SearchResult({
       </div>
     </div>
   );
-}
+};
 
 export default SearchResult;

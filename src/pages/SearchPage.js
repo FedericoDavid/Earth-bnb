@@ -1,7 +1,7 @@
 import { Button } from "@material-ui/core";
-import React from "react";
-import "./SearchPage.css";
 import SearchResult from "./SearchResult";
+
+import "./css/SearchPage.css";
 
 function SearchPage() {
   return (
@@ -79,6 +79,6 @@ function SearchPage() {
       />
     </div>
   );
-}
+};
 
 export default SearchPage;
