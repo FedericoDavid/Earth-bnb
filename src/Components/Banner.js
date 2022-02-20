@@ -13,7 +13,6 @@ function Banner() {
   return (
     <div className="banner">
       <div className="banner__search">
-        {showSearch && <Search />}
         <Button
           onClick={() => setShowSearch(!showSearch)}
           className="banner__searchButton"
@@ -21,6 +20,7 @@ function Banner() {
         >
           {showSearch ? "Hide" : "Search Dates"}
         </Button>
+        {showSearch && <Search />}
       </div>
       <div className="banner__info">
         <h1>Go Near</h1>

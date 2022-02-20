@@ -1,5 +1,5 @@
 .banner {
-  background: url("https://z1.muscache.cn/pictures/18084f37-67e0-400f-bfd8-55eea0e89508.jpg?im_w=720");
+  background: url('https://z1.muscache.cn/pictures/18084f37-67e0-400f-bfd8-55eea0e89508.jpg?im_w=720');
   background-size: cover;
   background-position: center;
   height: 80vh;
@@ -7,17 +7,21 @@
 }
 
 .banner__info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
   color: #fff;
-  padding-top: 45vh;
+  padding-top: 50vh;
   padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 40px;
-  width: 300px;
 }
 
 .banner__search {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
 }
 
 .banner__searchButton {
@@ -25,14 +29,15 @@
   font-weight: 900 !important;
   text-transform: inherit !important;
   color: #ff7779 !important;
+  width: 100%;
 }
 
 .banner__info > button {
   background-color: #ff7779;
   color: #fff;
   text-transform: inherit;
-  margin-top: 20px;
   font-weight: 600;
+  margin-top: -10px;
 }
 
 .banner__info > button:hover {
@@ -41,7 +46,8 @@
 }
 
 .banner__info > h5 {
-  margin-top: 10px;
+  margin-top: -10px;
+  width: 300px;
 }
 
 @media screen and (max-width: 992px) {

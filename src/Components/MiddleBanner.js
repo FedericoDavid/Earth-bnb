@@ -2,7 +2,7 @@ import { Button } from "@material-ui/core";
 
 import "./css/middleBanner.css";
 
-function MiddleBanner() {
+const MiddleBanner = () => {
   return (
     <div className="middle__container">
       <div className="middle__banner">

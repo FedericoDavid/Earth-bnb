@@ -4,7 +4,7 @@ import MiddleBanner from "./MiddleBanner";
 
 import "./css/Home.css";
 
-function Home() {
+const Home = () => {
   return (
     <div className="home">
       <Banner />
