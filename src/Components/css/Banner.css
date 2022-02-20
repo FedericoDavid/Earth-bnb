@@ -43,6 +43,7 @@
 .banner__info > button:hover {
   background-color: #fff;
   color: #ff7779;
+  transition: 0.3s;
 }
 
 .banner__info > h5 {

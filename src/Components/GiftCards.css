@@ -1,0 +1,36 @@
+.gift-cards-container {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gift__info {
+  margin: 70px 0 0 110px;
+  font-size: 20px;
+}
+
+.gift-image-container {
+  margin: auto;
+}
+
+.gift-image-container > img {
+  margin-top: 20px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.gift__info > button {
+  background-color: #000 !important;
+  font-weight: 700 !important;
+  text-transform: inherit !important;
+  color: #fff !important;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.gift__info > button:hover {
+  background-color: #222 !important;
+}

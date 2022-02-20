@@ -1,21 +1,21 @@
-import { Button } from "@material-ui/core";
+import { Button } from '@material-ui/core';
 
-import "./css/middleBanner.css";
+import './css/middleBanner.css';
 
 const MiddleBanner = () => {
   return (
-    <div className="middle__container">
-      <div className="middle__banner">
-        <div className="middle__info">
+    <div className='middle__container'>
+      <div className='middle__banner'>
+        <div className='middle__info'>
           <h2>
             Your world is <br />
             worth sharing
           </h2>
           <h4>
             Turn your extra space <br />
-            into your nex opportunity
+            into your next opportunity
           </h4>
-          <Button className="middle__btn" variant="outlined">
+          <Button className='middle__btn' variant='outlined'>
             Become a host
           </Button>
         </div>
