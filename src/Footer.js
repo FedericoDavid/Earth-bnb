@@ -1,8 +1,8 @@
-import "./css/Footer.css";
+import './css/Footer.css';
 
-function Footer() {
+const Footer = () => {
   return (
-    <div className="footer">
+    <div className='footer'>
       <p>© Earthbnb an a Airbnb based web</p>
       <p>Federico Enriquez Web Developer</p>
     </div>

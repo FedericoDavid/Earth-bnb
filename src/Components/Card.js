@@ -1,10 +1,10 @@
-import "./css/Card.css";
+import './css/Card.css';
 
-export const Card =({ src, title, description, price }) => {
+export const Card = ({ src, title, description, price }) => {
   return (
-    <div className="card">
-      <img src={src} alt="" />
-      <div className="card__info">
+    <div className='card'>
+      <img src={src} alt='' />
+      <div className='card__info'>
         <h2>{title}</h2>
         <h4>{description}</h4>
         <h3>{price}</h3>

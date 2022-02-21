@@ -1,81 +1,81 @@
-import { Button } from "@material-ui/core";
-import SearchResult from "./SearchResult";
+import { Button } from '@material-ui/core';
+import SearchResult from './SearchResult';
 
-import "./css/SearchPage.css";
+import './css/SearchPage.css';
 
-function SearchPage() {
+const SearchPage = () => {
   return (
-    <div className="searchPage">
-      <div className="searchPage__info">
+    <div className='searchPage'>
+      <div className='searchPage__info'>
         <p>43 stays · 9 November to 26 November · 2 guest</p>
         <h1>Stays Nearby</h1>
-        <Button variant="outlined">Cancellation Flexibility</Button>
-        <Button variant="outlined">Type of place</Button>
-        <Button variant="outlined">Price</Button>
-        <Button variant="outlined">More filters</Button>
+        <Button variant='outlined'>Cancellation Flexibility</Button>
+        <Button variant='outlined'>Type of place</Button>
+        <Button variant='outlined'>Price</Button>
+        <Button variant='outlined'>More filters</Button>
       </div>
       <SearchResult
-        img="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU"
-        location="Private room in London"
-        title="Stay at this spacious Edwardian House"
-        description="1 guest · 1 Bedroom · 1 bed · 1.5 shared Bthrooms · WiFi · Kitchen · Free Parking · Washing Machine"
+        img='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_wbPYTxQPMcBh7SPzLFActXnP3uhifeVT_g&usqp=CAU'
+        location='Private room in London'
+        title='Stay at this spacious Edwardian House'
+        description='1 guest · 1 Bedroom · 1 bed · 1.5 shared Bthrooms · WiFi · Kitchen · Free Parking · Washing Machine'
         star={4.73}
-        price="₤30 / Night"
-        total="₤117 total"
+        price='₤30 / Night'
+        total='₤117 total'
       />
       <SearchResult
-        img="https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg"
-        location="Apartament in center of London"
-        title="Independant luxury studio apartment"
-        description="2 guest · 3 Bedroom · 3 bed · 1 shared Bthrooms · WiFi · Kitchen · Free Parking · Washing Machine"
+        img='https://www.expatkings.com/wp-content/uploads/2018/10/Airbnb-rental-tips.-Hostmaker-1-620x349.jpg'
+        location='Apartament in center of London'
+        title='Independant luxury studio apartment'
+        description='2 guest · 3 Bedroom · 3 bed · 1 shared Bthrooms · WiFi · Kitchen · Free Parking · Washing Machine'
         star={4.3}
-        price="₤40 / Night"
-        total="₤157 total"
+        price='₤40 / Night'
+        total='₤157 total'
       />
       <SearchResult
-        img="https://www.smartertravel.com/uploads/2017/07/Untitled-design-8.jpg"
-        location="Private room in center of Sussex"
-        title="Sussex studio apartment"
-        description="3 guest · 2 Bedroom · 2 bed · 1 Bthrooms · WiFi · Kitchen · Free Parking · Dry Cleaning"
+        img='https://www.smartertravel.com/uploads/2017/07/Untitled-design-8.jpg'
+        location='Private room in center of Sussex'
+        title='Sussex studio apartment'
+        description='3 guest · 2 Bedroom · 2 bed · 1 Bthrooms · WiFi · Kitchen · Free Parking · Dry Cleaning'
         star={3.9}
-        price="₤45 / Night"
-        total="₤207 total"
+        price='₤45 / Night'
+        total='₤207 total'
       />
       <SearchResult
-        img="https://cdn.bisnow.net/fit?height=489&type=jpeg&url=https%3A%2F%2Fs3.amazonaws.com%2Fcdn.bisnow.net%2Fcontent%2Fimages%2F2017%2F05%2F59151d0978bbf_https_press_atairbnb_com_app_uploads_2016_12_midtown_4.jpeg&width=717&sign=FeltIPi9cOWA36nVIeDvZxwgtiCZrpUyMRdvyZviTUI"
-        location="Excellent apartment in Worcestershire"
-        title="Luxury studio apartment"
-        description="2 guest · 1 Bedroom · 1 bed · 1 Bthrooms · WiFi · Kitchen · Free Parking · Washing Machine"
+        img='https://cdn.bisnow.net/fit?height=489&type=jpeg&url=https%3A%2F%2Fs3.amazonaws.com%2Fcdn.bisnow.net%2Fcontent%2Fimages%2F2017%2F05%2F59151d0978bbf_https_press_atairbnb_com_app_uploads_2016_12_midtown_4.jpeg&width=717&sign=FeltIPi9cOWA36nVIeDvZxwgtiCZrpUyMRdvyZviTUI'
+        location='Excellent apartment in Worcestershire'
+        title='Luxury studio apartment'
+        description='2 guest · 1 Bedroom · 1 bed · 1 Bthrooms · WiFi · Kitchen · Free Parking · Washing Machine'
         star={4.1}
-        price="₤51 / Night"
-        total="₤290 total"
+        price='₤51 / Night'
+        total='₤290 total'
       />
       <SearchResult
-        img="https://media.cntraveler.com/photos/5a8f258bd363c34048b35aac/master/w_2250,h_1500,c_limit/airbnb-plus-london.jpg"
-        location="Apartment in Watford"
-        title="Spacious Peaceful Modern Bedroom"
-        description="3 guest · 2 Bedroom · 2 bed · 2 Bthrooms · WiFi · Kitchen · Free Parking · Dry Cleaning"
+        img='https://media.cntraveler.com/photos/5a8f258bd363c34048b35aac/master/w_2250,h_1500,c_limit/airbnb-plus-london.jpg'
+        location='Apartment in Watford'
+        title='Spacious Peaceful Modern Bedroom'
+        description='3 guest · 2 Bedroom · 2 bed · 2 Bthrooms · WiFi · Kitchen · Free Parking · Dry Cleaning'
         star={5.0}
-        price="₤55 / Night"
-        total="₤320 total"
+        price='₤55 / Night'
+        total='₤320 total'
       />
       <SearchResult
-        img="https://static.trip101.com/paragraph_media/pictures/001/676/061/large/969ae4bb-efd1-4fb9-a4e3-5cb3316dd3c9.jpg?1562227937"
-        location="Apartment in center of London"
-        title="The Blue room in London"
-        description="2 guest · 1 Bedroom · 1 bed · 1 Bthrooms · WiFi · Kitchen · Free Parking · Washing Machine"
+        img='https://static.trip101.com/paragraph_media/pictures/001/676/061/large/969ae4bb-efd1-4fb9-a4e3-5cb3316dd3c9.jpg?1562227937'
+        location='Apartment in center of London'
+        title='The Blue room in London'
+        description='2 guest · 1 Bedroom · 1 bed · 1 Bthrooms · WiFi · Kitchen · Free Parking · Washing Machine'
         star={4.2}
-        price="₤61 / Night"
-        total="₤480 total"
+        price='₤61 / Night'
+        total='₤480 total'
       />
       <SearchResult
-        img="https://image.insider.com/585029a0dd0895bc548b4b8b?width=750&format=jpeg&auto=webp"
-        location="Apartment in Essex"
-        title="5 Star Luxury Apartment"
-        description="4 guest · 2 Bedroom · 2 bed · 2 Bthrooms · WiFi · Kitchen · Free Parking · Dry Cleaning"
+        img='https://image.insider.com/585029a0dd0895bc548b4b8b?width=750&format=jpeg&auto=webp'
+        location='Apartment in Essex'
+        title='5 Star Luxury Apartment'
+        description='4 guest · 2 Bedroom · 2 bed · 2 Bthrooms · WiFi · Kitchen · Free Parking · Dry Cleaning'
         star={4.7}
-        price="₤90 / Night"
-        total="₤650 total"
+        price='₤90 / Night'
+        total='₤650 total'
       />
     </div>
   );

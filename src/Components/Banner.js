@@ -5,7 +5,7 @@ import { useHistory } from 'react-router-dom';
 
 import './css/Banner.css';
 
-function Banner() {
+const Banner = () => {
   const [showSearch, setShowSearch] = useState(false);
 
   const history = useHistory();
@@ -31,6 +31,6 @@ function Banner() {
       </div>
     </div>
   );
-}
+};
 
 export default Banner;

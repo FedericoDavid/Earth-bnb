@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Grid } from '@material-ui/core';
 
-import './GiftCards.css';
+import './css/GiftCards.css';
 
 const GiftCards = () => {
   const giftCardSrc =

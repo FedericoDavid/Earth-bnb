@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 import './css/Header.css';
 
-function Header() {
+const Header = () => {
   return (
     <Grid container>
       <Grid item xs>
@@ -38,6 +38,6 @@ function Header() {
       </Grid>
     </Grid>
   );
-}
+};
 
 export default Header;

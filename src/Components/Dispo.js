@@ -1,15 +1,12 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-import "./css/Dispo.css";
+import './css/Dispo.css';
 
-function Dispo() {
+const Dispo = () => {
   return (
-    <div className="dispo__aspo">
-      <Link to="/" className="Info">
-        <p>
-          Consultá la información más actualizada sobre nuestra respuesta al
-          COVID-19
-        </p>
+    <div className='dispo__aspo'>
+      <Link to='/' className='Info'>
+        <p>Consultá la información más actualizada sobre nuestra respuesta al COVID-19</p>
       </Link>
     </div>
   );
